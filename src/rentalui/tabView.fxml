@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <TableView fx:id="tableView" layoutX="171.0" layoutY="67.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <columns>
+            <TableColumn fx:id="monthCol" prefWidth="191.0" text="Month" />
+            <TableColumn fx:id="waterCol" prefWidth="205.0" text="Water Bill" />
+            <TableColumn fx:id="electricityCol" prefWidth="203.0" text="Electricity Bill" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
